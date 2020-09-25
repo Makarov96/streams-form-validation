@@ -78,9 +78,9 @@ class ValidateFormBloc extends Bloc with Validator {
   }
 
   void streamClose() {
-    _petName.close();
-    _personPhone.close();
-    _petDetails.close();
-    _appointmet.close();
+    _petName?.close();
+    _personPhone?.close();
+    _petDetails?.close();
+    _appointmet?.close();
   }
 }
